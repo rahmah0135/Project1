@@ -1,0 +1,78 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+
+@font-face{
+    src: url(Fonts/Inter-Regular.ttf);
+    font-family: Inter-Regular;
+}
+
+#box1{
+    width: 350px;
+    height: 550px;
+    background-color: hsl(0, 0%, 12%);
+    margin: auto;
+    margin-top: 100px;
+    border-style: solid;
+    border-radius: 8px;
+    border-color: transparent;
+    font-familY: Inter-Regular, roboto, arial;
+    
+}
+
+.Image{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: -120px;
+    margin-left: 125px;
+    margin-top: 30px;
+}
+
+#p1{
+    margin-top: 130px;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+    font-size: 25px;
+}
+
+#p2{
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+    margin-top: -20px;
+}
+
+#p3{
+    text-align: center;
+    color: white;
+}
+
+.navbar a{
+    color: white;
+    padding: 4px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.box{
+    width: 250px;
+    height: 25px;
+    background-color: hsl(0, 0%, 20%);
+    margin: auto;
+    margin-top: 25px;
+    display: block;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: transparent;
+    text-align: center;
+}
+
+.box:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+a:hover{
+    color: black;
+}
+
